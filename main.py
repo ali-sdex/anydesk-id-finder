@@ -20,4 +20,6 @@ def get_anydesk_id():
     except Exception as e:
         return f"Error reading file: {e}"
 
-print(get_anydesk_id())
+
+if __name__ == '__main__':
+    print(get_anydesk_id())
